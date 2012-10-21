@@ -11,11 +11,13 @@ WeatherCode.php
 WeatherCode converts the MetOffice DataPoint API weather codes into meaningful strings (as per the documentation). Instead of 
 
 ### Usage
-<pre>
-	<?php
-	$weatherCode = new WeatherCode;
-	print $weatherCode->getTextForCode(30); //print Thunder
-	?>
-</pre>
+
+<code>
+		$weatherCode = new WeatherCode;
+		print $weatherCode->getTextForCode(30); //prints Thunder
+
+</code>
+
+<hr>
 
 Copyright 2012 NimbleWorks LLP, available to use under the MIT License. 
