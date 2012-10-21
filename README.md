@@ -12,11 +12,11 @@ WeatherCode converts the MetOffice DataPoint API weather codes into meaningful s
 
 ### Usage
 
-<code>
+<pre>
 		$weatherCode = new WeatherCode;
 		print $weatherCode->getTextForCode(30); //prints Thunder
 
-</code>
+</pre>
 
 <hr>
 
