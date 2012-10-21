@@ -8,7 +8,7 @@ Helpful Classes for the MetOffice [Datapoint](http://www.metoffice.gov.uk/datapo
 WeatherCode.php
 ---------------
 
-WeatherCode converts the MetOffice DataPoint API weather codes into meaningful strings (as per the documentation). Instead of 
+WeatherCode converts the MetOffice DataPoint API weather codes into meaningful strings (as per the documentation). Codes are NA (returns <code>null</code>) and 0-30, code 4 is an empty code so returns and empty string (not <code>null</code> though).
 
 ### Usage
 
