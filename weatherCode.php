@@ -104,7 +104,7 @@ class WeatherCodes{
 			case 26:
 				$return = "Heavy snow shower (day)";
 				break;
-				case 27:
+			case 27:
 				$return = "Heavy snow";
 				break;
 			case 28:
